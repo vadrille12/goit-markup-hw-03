@@ -1,0 +1,53 @@
+.logo-header {
+    font-family: var(--logo-font);
+    color: var(--main-font-color);
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+}
+
+.accent {
+    color: var(--hover-focus-color);
+}
+
+.menu-nav {
+    list-style: none;
+}
+
+.menu-link {
+    color: var(--main-font-color);
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 1.4;
+}
+
+.menu-link:hover {
+    color: var(--hover-focus-color);
+}
+
+.menu-link:focus {
+    color: var(--hover-focus-color);
+}
+
+.contact-menu {
+    list-style: none;
+}
+
+.contact-header {
+    color: var(--secondary-font-color);
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 1.4;
+}
+
+.contact-header:hover {
+    color: var(--hover-focus-color);
+}
+
+.contact-header:focus {
+    color: var(--hover-focus-color);
+}

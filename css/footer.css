@@ -1,0 +1,54 @@
+.footer {
+    background-color: var(--dark-bg-color);
+}
+
+.logo-f {
+    font-family: var(--logo-font);
+    color: var(--main-light);   
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    line-height: 1.2;
+}
+
+.accent {
+    color: var(--hover-focus-color);
+}
+
+.menu {
+    list-style: none;
+}
+
+.addres {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--main-light);
+    text-decoration: none;
+    font-style: normal;
+    line-height: 1.7;
+}
+
+.addres:hover {
+    color: var(--hover-focus-color);
+}
+
+.addres:focus {
+    color: var(--hover-focus-color);
+}
+
+.contact-footer {
+    color: var(--footer-contact-color);
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    font-style: normal;
+    line-height: 1.7;
+}
+
+.contact-footer:hover {
+    color: var(--hover-focus-color);
+}
+
+.contact-footer:focus {
+    color: var(--hover-focus-color);
+}
