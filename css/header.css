@@ -1,53 +1,66 @@
+.header {
+   border-bottom: 1px solid #ececec;
+}
+
+.container-h {
+   display: flex;
+   justify-content: space-between;
+}
+
 .logo-header {
-    font-family: var(--logo-font);
-    color: var(--main-font-color);
-    font-weight: 700;
-    font-size: 26px;
-    text-decoration: none;
-    letter-spacing: 0.03em;
-    line-height: 1.2;
+   font-family: var(--logo-font);
+   color: var(--main-font-color);
+   font-weight: 700;
+   font-size: 26px;
+   text-decoration: none;
+   letter-spacing: 0.03em;
+   line-height: 1.2;
+   margin-right: 93px;
 }
 
 .accent {
-    color: var(--hover-focus-color);
+   color: var(--hover-focus-color);
 }
 
 .menu-nav {
-    list-style: none;
-}
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}   
 
 .menu-link {
-    color: var(--main-font-color);
-    font-weight: 500;
-    font-size: 14px;
-    text-decoration: none;
-    line-height: 1.4;
+   color: var(--main-font-color);
+   font-weight: 500;
+   font-size: 14px;
+   text-decoration: none;
+   line-height: 1.4;
 }
 
-.menu-link:hover {
-    color: var(--hover-focus-color);
-}
-
+.menu-link:hover,
 .menu-link:focus {
-    color: var(--hover-focus-color);
+   color: var(--hover-focus-color);
+}
+
+.menu-link.current {
+   color: var(--accent-color);
 }
 
 .contact-menu {
-    list-style: none;
+   list-style: none;
 }
 
 .contact-header {
-    color: var(--secondary-font-color);
-    font-weight: 500;
-    font-size: 14px;
-    text-decoration: none;
-    line-height: 1.4;
+   color: var(--secondary-font-color);
+   font-weight: 500;
+   font-size: 14px;
+   text-decoration: none;
+   line-height: 1.4;
 }
 
 .contact-header:hover {
-    color: var(--hover-focus-color);
+   color: var(--hover-focus-color);
 }
 
 .contact-header:focus {
-    color: var(--hover-focus-color);
+   color: var(--hover-focus-color);
 }
