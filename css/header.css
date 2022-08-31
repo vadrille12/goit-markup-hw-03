@@ -4,7 +4,15 @@
 
 .container-h {
    display: flex;
-   justify-content: space-between;
+   width: 1200px;
+   margin-right: auto;
+   margin-left: auto;
+   width: 1170px;
+   padding-left: 15px;
+   padding-right: 15px;
+   outline: 2px solid red;
+   margin-bottom: 0;
+   align-items: center;
 }
 
 .logo-header {
@@ -15,7 +23,6 @@
    text-decoration: none;
    letter-spacing: 0.03em;
    line-height: 1.2;
-   margin-right: 93px;
 }
 
 .accent {
@@ -24,9 +31,15 @@
 
 .menu-nav {
    list-style: none;
+   margin-left: 93px;
+   margin-right: 342px;
+   margin-top: 32px;
+   margin-bottom: 32px;
    padding: 0;
-   margin: 0;
-}   
+   display: flex;
+   justify-content: space-between;
+   gap: 50px;
+}
 
 .menu-link {
    color: var(--main-font-color);
@@ -34,6 +47,7 @@
    font-size: 14px;
    text-decoration: none;
    line-height: 1.4;
+   display: flex;
 }
 
 .menu-link:hover,
@@ -47,6 +61,11 @@
 
 .contact-menu {
    list-style: none;
+   display: flex;
+   justify-content: space-between;
+   gap: 50px;
+   padding: 0;
+   margin: 0;
 }
 
 .contact-header {

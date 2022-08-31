@@ -1,8 +1,20 @@
 .container {
-   width: 1200px;
+   margin-right: auto;
+   margin-left: auto;
+   width: 1170px;
    padding-left: 15px;
    padding-right: 15px;
-   padding-bottom: 94px;
+   outline: 2px solid red;
+}
+
+.btns {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   gap: 8px;
+   margin: 0;
+   padding-top: 94px;
+   padding-bottom: 50px;
 }
 
 .hero-btn {
@@ -46,6 +58,17 @@
 .container-bg {
    background-color: var(--main-ligh);
    border: 1px solid var(--border-color);
+}
+
+.card-set {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 26px;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   padding-bottom: 94px;
 }
 
 .my-work-title {
