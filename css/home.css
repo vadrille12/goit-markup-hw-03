@@ -4,11 +4,12 @@
    width: 1170px;
    padding-left: 15px;
    padding-right: 15px;
-   outline: 2px solid red;
 }
 
 .hero-section {
    background-color: var(--dark-bg-color);
+   padding-top: 200px;
+   padding-bottom: 200px;
 }
 
 .hero-title {
@@ -23,7 +24,6 @@
    width: 696px;
    margin: 0 auto;
    display: block;
-   margin-top: 200px;
    margin-bottom: 30px;
 }
 
@@ -39,7 +39,7 @@
    border-radius: 4px;
    cursor: pointer;
    line-height: 1.875;
-   margin: 0 auto 200px;
+   margin: 0 auto;
    display: block;
 }
 
@@ -58,11 +58,19 @@
    margin: 0;
    padding: 0;
    gap: 30px;
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
+
+.our-features-ul {
+   list-style: none;
+   display: flex;
+   margin: 0;
+   padding: 0;
+   gap: 30px;
 }
 
 .our-features-li {
-   margin-top: 94px;
-   margin-bottom: 94px;
    width: 270px;
 }
 
@@ -96,7 +104,11 @@
    margin-top: 10px;
 }
 
-.what-are-we-doing {
+.what-we-are-doing {
+   padding-bottom: 94px;
+}
+
+.what-are-we-doing-title {
    color: var(--main-font-color);
    font-weight: 700;
    font-size: 36px;
@@ -106,13 +118,11 @@
    margin-bottom: 50px;
 }
 
-.what-we-are-doing-img {
+.what-we-are-doing-ul {
    display: flex;
    margin: 0;
    padding: 0;
-   justify-content: space-between;
    gap: 30px;
-   padding-bottom: 94px;
 }
 
 .container-bg {
@@ -120,16 +130,22 @@
    border: 1px solid var(--border-color);
    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
    border-radius: 0px 0px 4px 4px;
+   padding-top: 30px;
+   padding-bottom: 30px;
 }
 
 .our-team {
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
+
+.our-team-title {
    color: var(--main-font-color);
    font-weight: 700;
    font-size: 36px;
    line-height: 1.16;
    text-align: center;
    margin: 0;
-   padding-top: 94px;
    margin-bottom: 50px;
 }
 
@@ -137,18 +153,16 @@
    display: flex;
    margin: 0;
    padding: 0;
-   justify-content: space-between;
-   padding-bottom: 94px;
+   gap: 30px;
 }
 
 .name {
    color: var(--main-font-color);
    font-size: 16px;
    font-weight: 500;
-   letter-spacing: 0.03em;
    line-height: 1.1875;
    text-align: center;
-   margin-top: 30px;
+   margin: 0;
 }
 
 .profession {
@@ -157,14 +171,19 @@
    font-weight: 400;
    line-height: 1.1875;
    text-align: center;
-   margin-top: 10px;
-   margin-bottom: 30px;
+   margin: 0;
 }
 
-.bg-ourteam {
+.our-team {
    background-color: var(--bg-ourteam);
 }
 
 .bg {
    background-color: var(--main-light);
+}
+
+.img {
+   display: block;
+   max-width: 100%;
+   height: auto;
 }

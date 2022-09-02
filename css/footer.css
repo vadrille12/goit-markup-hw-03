@@ -5,15 +5,16 @@
    width: 1170px;
    padding-left: 15px;
    padding-right: 15px;
-   outline: 2px solid red;
    margin-bottom: 0;
 }
 
 .footer {
    background-color: var(--dark-bg-color);
+   padding-top: 60px;
+   padding-bottom: 60px;
 }
 
-.logo-f {
+.logo-footer {
    font-family: var(--logo-font);
    color: var(--main-light);
    font-weight: 700;
@@ -38,9 +39,12 @@
    margin-bottom: 9px;
 }
 
+.menu-link-footer:last-child {
+   margin-bottom: 0;
+}
+
 .address-footer {
-   padding-bottom: 60px;
-   padding-top: 20px;
+   margin-top: 20px;
 }
 
 .addres {
